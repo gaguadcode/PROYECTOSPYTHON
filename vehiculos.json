@@ -1,34 +1,66 @@
 [
     {
-        "id": "c377d2e1-5610-4a3c-9d9c-f8d009d8b072",
+        "id": "3af29088-1ca3-4034-8748-a754b6d823b0",
         "marca": "Toyota",
         "modelo": "Corolla",
-        "estado": "encendido",
-        "fecha_creacion": "17-01-2024",
-        "fecha_ultimo_uso": "17-01-2024"
-    },
-    {
-        "id": "276d327f-cce3-44ca-af3f-09e11941a90b",
-        "marca": "Honda",
-        "modelo": "CBR",
-        "estado": "encendido",
-        "fecha_creacion": "17-01-2024",
-        "fecha_ultimo_uso": "17-01-2024"
-    },
-    {
-        "id": "f2f9a050-66ff-4f52-ad4a-c000289f4527",
-        "marca": "Yamaha",
-        "modelo": "Speedboat",
         "estado": "apagado",
-        "fecha_creacion": "17-01-2024",
+        "fecha_creacion": "18-01-2024",
         "fecha_ultimo_uso": null
     },
     {
-        "id": "6c0438d7-3daf-4038-9b99-68767c868add",
+        "id": "3ab528fe-264a-47e6-bb71-5c6cfa4397ee",
+        "marca": "Honda",
+        "modelo": "CBR",
+        "estado": "apagado",
+        "fecha_creacion": "18-01-2024",
+        "fecha_ultimo_uso": null
+    },
+    {
+        "id": "ebf15a60-9b79-4227-b15e-1e20d8cbb562",
+        "marca": "Yamaha",
+        "modelo": "Speedboat",
+        "estado": "apagado",
+        "fecha_creacion": "18-01-2024",
+        "fecha_ultimo_uso": null
+    },
+    {
+        "id": "31124ce6-41e3-43c6-9a66-5f2fe5fc194f",
         "marca": "Trek",
         "modelo": "Mountain Bike",
         "estado": "apagado",
-        "fecha_creacion": "17-01-2024",
+        "fecha_creacion": "18-01-2024",
+        "fecha_ultimo_uso": null
+    },
+    {
+        "id": "10c84019-6857-4fb8-a541-a78c0fa41541",
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "estado": "apagado",
+        "fecha_creacion": "18-01-2024",
+        "fecha_ultimo_uso": null
+    },
+    {
+        "id": "0b1b5265-9044-4073-a880-889b8638ac83",
+        "marca": "Honda",
+        "modelo": "CBR",
+        "estado": "apagado",
+        "fecha_creacion": "18-01-2024",
+        "fecha_ultimo_uso": null
+    },
+    {
+        "id": "e5a4183c-c34b-4f68-a6a6-29617a44d119",
+        "marca": "Yamaha",
+        "modelo": "Speedboat",
+        "estado": "apagado",
+        "fecha_creacion": "18-01-2024",
+        "fecha_ultimo_uso": null
+    },
+    {
+        "id": "4f31f8d4-0543-4514-ac0b-103e0937e83c",
+        "marca": "Trek",
+        "modelo": "Mountain Bike",
+        "estado": "apagado",
+        "fecha_creacion": "18-01-2024",
         "fecha_ultimo_uso": null
     }
 ]

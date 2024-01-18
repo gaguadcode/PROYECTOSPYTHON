@@ -118,7 +118,7 @@ class Bicicleta(Vehiculo):
     def pedalear(self):
         print(f"{self.marca} {self.modelo} pedaleando.")
 
-# Ejemplo de uso
+'''# Ejemplo de uso
 mi_coche = Coche(marca="Toyota", modelo="Corolla", estado="apagado", ruedas=4)
 mi_coche.encender()
 mi_coche.acelerar()
@@ -146,4 +146,4 @@ mi_bicicleta.guardar_en_json("vehiculos.json")
 #Finalmente hago un print del json
 with open("vehiculos.json", 'r') as file:
         contenido = json.load(file)
-        print(json.dumps(contenido, indent=4))
+        print(json.dumps(contenido, indent=4))'''

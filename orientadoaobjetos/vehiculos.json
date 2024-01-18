@@ -1,0 +1,34 @@
+[
+    {
+        "id": "551910d4-8d0c-4f6e-9dd2-643a521d984e",
+        "marca": "Toyota",
+        "modelo": "Corolla",
+        "estado": "apagado",
+        "fecha_creacion": "18-01-2024",
+        "fecha_ultimo_uso": null
+    },
+    {
+        "id": "8a48eeb3-963c-4e67-9daa-614d87f97f39",
+        "marca": "Honda",
+        "modelo": "CBR",
+        "estado": "apagado",
+        "fecha_creacion": "18-01-2024",
+        "fecha_ultimo_uso": null
+    },
+    {
+        "id": "ef272559-d676-4901-ba4c-66113ccb3892",
+        "marca": "Yamaha",
+        "modelo": "Speedboat",
+        "estado": "apagado",
+        "fecha_creacion": "18-01-2024",
+        "fecha_ultimo_uso": null
+    },
+    {
+        "id": "f08ed29d-0da8-40e0-9f33-6fc3c0442926",
+        "marca": "Trek",
+        "modelo": "Mountain Bike",
+        "estado": "apagado",
+        "fecha_creacion": "18-01-2024",
+        "fecha_ultimo_uso": null
+    }
+]
