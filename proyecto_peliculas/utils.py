@@ -4,7 +4,15 @@ from nltk.tokenize import word_tokenize
 from dotenv import load_dotenv
 from openai import OpenAI
 import os
+import AstraDB
+from sentence_transformers import SentenceTransformer
 
+secret_string = os.getenv("OPENAI_API_KEY")
+
+# Configurar el motor de OpenAI
+engine = "gpt-4"
+embeddings = OpenAIEmbeddings(api_key=secret_string, model="text-embedding-3-large")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def get_embedding_GPT(text):
     response = client.embeddings.create(
@@ -38,4 +46,23 @@ def get_embedding_w2v_tfidf(text, model, corpus):
     # Return the normalized vector
     return weighted_sum / tfidf_values.sum()
 
+
+def get_embedding(text):
+    query_result = embeddings.embed_query(text)
+    print(query_result)
+    return query_result
+
+def get_similarity(movie_description,N):
+    db = AstraDB(token=os.getenv("ASTRA_DB_APPLICATION_TOKEN"), api_endpoint=os.getenv("ASTRA_DB_API_ENDPOINT"))
+    collection = db.collection(collection_name="vector_movies")
+    vector_embedding = get_embedding(movie_description)
+    list_vec = collection.vector_find(
+        vector=vector_embedding,
+        limit=10
+    )
+
+    # Extract the movie titles from the 'text' values in the list
+    titles = [item['text'].split(':')[0].strip('\"') for item in list_vec]
+
+    return titles[1:(N+1)]
 
