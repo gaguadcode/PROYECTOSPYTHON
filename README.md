@@ -1,5 +1,5 @@
 # Movie Recommendation App
-![Alt text](Screenshot 2024-02-05 at 17.25.34.png)
+![Alt text](<Screenshot 2024-02-05 at 17.25.34.png>)
 This project aims to provide movie recommendations based on user preferences using two different language models: BERT and GPT-4. The BERT model, introduced in 2019, is known for its lightweight architecture. In contrast, GPT-4, unveiled in 2023, stands out as a more densely structured model. The application utilizes movie overviews and embeddings to calculate similarity scores and suggests the top N similar films. 
 
 ## Overview
